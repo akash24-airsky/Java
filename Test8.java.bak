@@ -1,0 +1,13 @@
+public class Test8{
+	static{
+		System.out.println("I Am Static Block");
+	}
+	{
+		Test p = new Test();
+		System.out.println("Hello");
+	}
+	public static void main(String[] args){
+		Test p1 = new Test();
+	}
+	
+}
